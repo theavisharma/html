@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents</title>
+</head>
+<body>
+    <h2> Forms in Html </h2>
+    <form action="backend.php"></form>    <!-- Form tag is used to Create forms  and 
+        Action attribute provides location to store value in backend in a PHP file-->
+       <label for="name"> Name </label>
+        <div>                      <!-- Division tag is used to divides columns and rows and maintain gap. -->
+        <input type="text" name="MyName" id="name"> <!--Input tag takes input -->
+                                                <!--Type identifies type of data to be entered. --> 
+       </div>
+       <br>
+       <div>
+        Class : <input type="text" name="Myclass"> <!--name attributes gives name to values in backend PHP file to display efficiently. -->
+       </div>
+       <br>
+       <div>
+        Subject :<input type="text" name="MySubject">
+       </div>
+       <br>
+       <div>
+        <input type="submit" value="Submit"> <!--Submit type gives submit button to save data in php files.-->
+       </div>
+       <br>
+       <div>
+        <input type="Date" value="date"> <!--Date type gives date button to store date. -->
+        </div>
+        <div>
+            Accept terms and conditions : <input type="checkbox" value="myCheckbox"> <!-- Checkbox is used to add tick markbox. -->
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="MyGender"> Female <input type="radio" name="MyGender"> <!-- Radio is used to choose a option among many choices. -->
+        </div>
+        <br>
+        <div>
+            Write about yourself : <br> <textarea cols="20" rows=20"></textarea>
+            </div> 
+            <br>
+            <label  for="car"> Car </label>
+        <select name="myCar" id="car">
+            <option  value="swft" >Swift</option>
+            <option value="ind">Indigo</option>
+            <option value="maruti">800</option>
+            <option value="Alto"> Alto Lx</option>
+        </select>
+        <br>
+        <div>
+            <br>
+            <input type="submit" value="Submit Now">
+        </div>
+        <br>
+        <div>
+             <input type="reset" value="Reset">
+        </div>
+        <br>
+         
+        </body>
+
+
+
+</body>
+</html>
